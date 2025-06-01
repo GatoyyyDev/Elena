@@ -11,12 +11,20 @@ header {
     padding: 1.5rem 0 0.5rem 0;
     text-align: center;
     box-shadow: 0 2px 8px rgba(95,75,139,0.1);
+    width: 100vw;
+    max-width: 100vw;
+    overflow-x: hidden;
 }
 header h1 {
     margin: 0 0 1rem 0;
     font-size: 2.4rem;
     letter-spacing: 2px;
     font-family: 'Georgia', serif;
+    word-break: break-word;
+    white-space: pre-line;
+    width: 100vw;
+    max-width: 100vw;
+    overflow-wrap: break-word;
 }
 .main-menu {
     list-style: none;
@@ -123,7 +131,19 @@ header h1 {
         overflow-x: hidden;
     }
     header {
-        padding: 1rem 0 0.5rem 0;
+        padding: 0.7rem 0 0.3rem 0;
+        width: 100vw;
+        max-width: 100vw;
+        overflow-x: hidden;
+    }
+    header h1 {
+        font-size: 1.25rem;
+        line-height: 1.2;
+        word-break: break-word;
+        white-space: pre-line;
+        width: 100vw;
+        max-width: 100vw;
+        overflow-wrap: break-word;
     }
     .main-menu {
         flex-direction: column;
